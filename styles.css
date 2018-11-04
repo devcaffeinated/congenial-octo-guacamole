@@ -1,0 +1,94 @@
+main {
+    padding-top: 5px;
+    background-color: #FFB1B6;
+    height: 100vh;
+}
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.curtain-flowers img:nth-of-type(1){
+    width: 50%;
+}
+
+.curtain-flowers img:nth-of-type(2){
+    width: 49.99%;
+}
+
+.couple-names {
+    display: flex;
+    justify-content: center;
+    height: 30%;
+}
+
+.couple-names img {
+    width: 50%;
+}
+
+.invite-together {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    padding-top: 115px;
+}
+
+.invite-you {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+.church-address {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    padding-top: 80px;
+}
+
+.church-address a {
+    color: white;
+}
+
+.reception-address {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+.reception-address a {
+    color: white;
+}
+
+
+
+@media (min-width: 300px) and (max-width: 800px) {
+    .center {
+        width: 100%;
+    }
+    .curtain-flowers img:nth-of-type(1){
+        width: 100%;
+    }
+    
+    .curtain-flowers img:nth-of-type(2){
+        display: none;
+    }
+
+    .invite-together {
+        font-size: large;
+        padding-top: 55px;
+    }
+
+    .couple-names {
+        height: 18%;
+    }
+
+    .invite-you {
+        font-size: large;
+        width: 70%;
+    }
+
+    .church-address, .reception-address {
+        font-size: large;
+    }
+}
