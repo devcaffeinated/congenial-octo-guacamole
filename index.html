@@ -257,25 +257,31 @@
 	<script>
         $(".search-btn").click(function(){
             $('.result-found').html('');
+            var counter = 0;
             var $userSearch = $('.search-name').val().toLowerCase();
             console.log($userSearch);
-			var resultsInnerHtml = 'Result : <br><hr>';
+			var resultsInnerHtml = '<hr>';
             $.getJSON( "invitees.json", function(data) {
 				console.log(data);
                 $.each(data, function(i, v) {
                     var replace = "regex";
                     var re = new RegExp($userSearch,"g");
                     if (v.name.search(re) != -1) {
+                        counter += 1;
                         resultsInnerHtml +=
                         	`Name: ` + v.formatted + '<br>' +
 							`Role:` + v.role + '<br>' +
                         	`Category:` + v.category + '<br>' +
 							`Description:` + v.description + '<br>' +
 							`<hr>`;
-                        $('.result-found').html(resultsInnerHtml);
                         return;
                     }
                 });
+
+                resultsInnerHtml = 'Results : ' + counter + '<hr>' + resultsInnerHtml;
+
+                $('.result-found').html(resultsInnerHtml);
+
             });
         });
 
