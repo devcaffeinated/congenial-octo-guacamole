@@ -74,11 +74,7 @@ const precacheResources = [
     './favicon.ico',
     './css/animate.css',
     './css/bootstrap.css',
-    './css/flexslider.css',
-    './css/icomoon.css',
-    './css/magnific-popup.css',
-    './css/owl.carousel.min.css',
-    './css/owl.theme.default.min.css',
+    './invitees.json',
     './app.js'
 ];
 

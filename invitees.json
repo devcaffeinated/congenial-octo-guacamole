@@ -1,0 +1,23 @@
+[
+    {
+        "name" : "ivan matala",
+        "formatted" : "Ivan Matala",
+        "role" : "Groom",
+        "description" : "LDR lover 1",
+        "category" : "Groom"
+    },
+    {
+        "name": "karen irene cano",
+        "formatted" : "Karen Irene Cano",
+        "role" : "Bride",
+        "description" : "LDR lover 2 :)",
+        "category" : "Bride"
+    },
+    {
+        "name" : "ivan 2",
+        "formatted" : "Ivan Matala",
+        "role" : "Groom2",
+        "description" : "LDR lover 1",
+        "category" : "Groom"
+    }
+]
