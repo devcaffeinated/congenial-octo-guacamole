@@ -1,23 +1,608 @@
 [
-    {
-        "name" : "ivan matala",
-        "formatted" : "Ivan Matala",
-        "role" : "Groom",
-        "description" : "LDR lover 1",
-        "category" : "Groom"
-    },
-    {
-        "name": "karen irene cano",
-        "formatted" : "Karen Irene Cano",
-        "role" : "Bride",
-        "description" : "LDR lover 2 :)",
-        "category" : "Bride"
-    },
-    {
-        "name" : "ivan 2",
-        "formatted" : "Ivan Matala",
-        "role" : "Groom2",
-        "description" : "LDR lover 1",
-        "category" : "Groom"
-    }
+  {
+      "name" : "ivan matala",
+      "formatted" : "Ivan Matala",
+      "role" : "Groom",
+      "description" : "Karen's forever IT support and debugger."
+  },
+  {
+      "name": "karen irene cano",
+      "formatted" : "Karen Irene Cano",
+      "role" : "Bride",
+      "description" : "Ivan's forever headache, not heartache though. ;) <3"
+  },
+  {
+      "name" : "do patajo entourage",
+      "formatted" : "Do Patajo",
+      "role" : "Ninong",
+      "description" : "Principal Sponsor - Ninong - Groom"
+  },
+  {
+    "name" : "ramayana diaz entourage",
+    "formatted" : "Ramayana Diaz",
+    "role" : "Ninang",
+    "description" : "Principal Sponsor - Ninang - Groom"
+  },
+  {
+    "name" : "cynthia leonardo entourage",
+    "formatted" : "Cynthia Leonardo",
+    "role" : "Ninang",
+    "description" : "Principal Sponsor - Ninang - Bride"
+  },
+  {
+    "name" : "bobby vargas entourage",
+    "formatted" : "Bobby Vargas",
+    "role" : "Ninong",
+    "description" : "Principal Sponsor - Ninong - Bride"
+  },
+  {
+    "name" : "elizabeth vargas entourage",
+    "formatted" : "Elizabeth Vargas",
+    "role" : "Ninang",
+    "description" : "Principal Sponsor - Ninang - Bride"
+  },
+  {
+    "name" : "albert wong entourage",
+    "formatted" : "Albert Wong",
+    "role" : "Ninong",
+    "description" : "Principal Sponsor - Ninong - Bride"
+  },
+  {
+    "name" : "mrs wong entourage",
+    "formatted" : "Mrs. Wong",
+    "role" : "Ninang",
+    "description" : "Principal Sponsor - Ninang - Bride"
+  },
+  {
+    "name" : "jeremy cruz mapua entourage",
+    "formatted" : "Jeremy Cruz",
+    "role" : "Best Man",
+    "description" : "Best Man, friend from Mapua"
+  },
+  {
+    "name" : "kathleen celine cano entourage",
+    "formatted" : "Kathleen Celine Cano",
+    "role" : "Matron of Honor",
+    "description" : "Karen's <b>beautiful</b> twin sister."
+  },
+  {
+    "name" : "kristine therese cano entourage",
+    "formatted" : "Kristine Therese Cano",
+    "role" : "Veil",
+    "description" : "Veil - Bridesmaid, Karen's all time organizer. Sige, <b>beatiful</b> sister na din! :))))"
+  },
+  {
+    "name" : "nicole cuaresma entourage",
+    "formatted" : "Nicole Cuaresma",
+    "role" : "Veil",
+    "description" : "Veil - Groom's men"
+  },
+  {
+    "name" : "jeneva javier entourage",
+    "formatted" : "Jeneva Javier",
+    "role" : "Candle",
+    "description" : "Candle - Bridesmaid, my bff since elementary at HSAM."
+  },
+  {
+    "name" : "steven villadelgado entourage",
+    "formatted" : "Steven Villadelgado",
+    "role" : "Candle",
+    "description" : "Candle - Groom's men"
+  },
+  {
+    "name" : "charlene canedo hpe entourage",
+    "formatted" : "Charlene Canedo",
+    "role" : "Cord",
+    "description" : "Cord - Bridesmaid, my bff since HPE <3"
+  },
+  {
+    "name" : "julien nicolas entourage",
+    "formatted" : "Julien Nicolas",
+    "role" : "Cord",
+    "description" : "Cord - Groom's men"
+  },
+  {
+    "name" : "summer keegan bartolome entourage",
+    "formatted" : "Summer Keegan Bartolome",
+    "role" : "Flower Girl",
+    "description" : "Favorite and the only niece of Karen <3"
+  },
+  {
+    "name" : "joseph garcia entourage",
+    "formatted" : "Joseph Garcia",
+    "role" : "Ring Bearer",
+    "description" : ""
+  },
+  {
+    "name" : "fernando matala",
+    "formatted" : "Fernando Matala",
+    "role" : "Parent",
+    "description" : "Father of Ivan"
+  },
+  {
+    "name" : "maria lourdes matala",
+    "formatted" : "Maria Lourdes Matala",
+    "role" : "Parent",
+    "description" : "Mother of Ivan"
+  },
+  {
+    "name" : "felipe cano",
+    "formatted" : "Felipe Cano",
+    "role" : "Parent",
+    "description" : "Father of Karen"
+  },
+  {
+    "name" : "elizabeth cano",
+    "formatted" : "Elizabeth Cano",
+    "role" : "Parent",
+    "description" : "Mother of Karen"
+  },
+  {
+    "name" : "adrian bartolome",
+    "formatted" : "Adrian Bartolome",
+    "role" : "Family",
+    "description" : "Husband of Kathleen Cano"
+  },
+  {
+    "name" : "brian jumaquio carmudi",
+    "formatted" : "Brian Jumaquio",
+    "role" : "Carmudi",
+    "description" : "Bff #1 of Karen in Carmudi"
+  },
+  {
+    "name" : "dhang borris mapua",
+    "formatted" : "Dhang Borris",
+    "role" : "Mapua",
+    "description" : "Blockmate at MIT College"
+  },
+  {
+    "name" : "elena bartolome",
+    "formatted" : "elena bartolome",
+    "role" : "Family",
+    "description" : "Mother in law of Kathleen Cano"
+  },
+  {
+    "name" : "eric bacani",
+    "formatted" : "Eric Bacani",
+    "role" : "Family",
+    "description" : "Husband of Sabrina Bacani - Bff of Kristine Cano"
+  },
+  {
+    "name" : "esperlyn guanco hpe",
+    "formatted" : "Esperlyn Guanco",
+    "role" : "HPE",
+    "description" : "Teammate and friend in Propel forever :)"
+  },
+  {
+    "name" : "jean santos",
+    "formatted" : "Jean Santos",
+    "role" : "Family",
+    "description" : "Family friend and financial advisor ;)"
+  },
+  {
+    "name" : "jon derick dei simbulan hpe",
+    "formatted" : "Jon Derick Simbulan",
+    "role" : "HPE",
+    "description" : "Teammate and friend in Propel forever :) Tall,<b>Dark</b> and handsome."
+  },
+  {
+    "name" : "justin lim hpe",
+    "formatted" : "Justin Lim",
+    "role" : "HPE",
+    "description" : "Best project manager in HPE. Feeds his developers generously hahaha."
+  },
+  {
+    "name" : "kat kathleen besmonte rey besmonte hpe",
+    "formatted" : "Kathleen Besmonte",
+    "role" : "HPE",
+    "description" : "Rey's wife"
+  },
+  {
+    "name" : "kevin rich borja mapua",
+    "formatted" : "Rich Borja",
+    "role" : "Mapua",
+    "description" : "Blockmate at MIT - College"
+  },
+  {
+    "name" : "koji antonio hpe",
+    "formatted" : "Koji Antonio",
+    "role" : "HPE",
+    "description" : "First bff at HPE."
+  },
+  {
+    "name" : "kriz delloro",
+    "formatted" : "Kriz Delloro",
+    "role" : "Family",
+    "description" : "Lovely cousin of Karen :)"
+  },
+  {
+    "name" : "nicole hernandez koji antonio hpe",
+    "formatted" : "Nicole Hernandez",
+    "role" : "HPE",
+    "description" : "Koji's girlfriend"
+  },
+  {
+    "name" : "peter valsorable mapua",
+    "formatted" : "Peter Valsorable",
+    "role" : "Mapua",
+    "description" : "Blockmate at MIT - College"
+  },
+  {
+    "name" : "rafael rafaello baluyot mapua",
+    "formatted" : "Rafaello Baluyot",
+    "role" : "Mapua",
+    "description" : "Classmate at MIT - College, taught Karen Mechanics but still gets low scores. HAHAHAHA"
+  },
+  {
+    "name" : "rafael rafaello baluyot mapua",
+    "formatted" : "Rafaello Baluyot + 1",
+    "role" : "Mapua",
+    "description" : "Reserved for the mom or girlfriend(meron na?? nuks!!) of Raf Baluyot."
+  },
+  {
+    "name" : "rey besmonte hpe",
+    "formatted" : "Rey Norbert Besmonte",
+    "role" : "HPE",
+    "description" : "Karen's friend and lead at Commude."
+  },
+  {
+    "name" : "sabrina eric bacani",
+    "formatted" : "Sabrina Bacani",
+    "role" : "Family",
+    "description" : "Family Friend, friend of Kristine Cano"
+  },
+  {
+    "name" : "sar sillada bri brian jumaquio",
+    "formatted" : "Sar Sillada",
+    "role" : "Carmudi",
+    "description" : "Brian's girlfriend and friend"
+  },
+  {
+    "name" : "danny cano",
+    "formatted" : "Danny Cano",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "anita cano",
+    "formatted" : "Anita Cano",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name": "merlinda inanoria",
+    "formatted": "Merlina Inanoria",
+    "role": "Family",
+    "description": ""
+  },
+  {
+    "name" : "melchor inanoria",
+    "formatted" : "Melchor Inanoria",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "irma salvo",
+    "formatted" : "Irma Salvo",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "joe salvo",
+    "formatted" : "Joe Salvo",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "evelyn sunga",
+    "formatted" : "Evelyn Sunga",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name": "danny sunga",
+    "formatted": "Danny Sunga",
+    "role": "Family",
+    "description": ""
+  },
+  {
+    "name" : "evangeline liwanag",
+    "formatted" : "Evangeline Liwanag",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "gerry liwanag",
+    "formatted" : "Gerry Liwanag",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "cheng candelaria",
+    "formatted" : "Cheng Candelaria",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "yan getubig",
+    "formatted" : "Yan Getubig",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "abel ibanez",
+    "formatted" : "Abel Ibanez",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "rex arenas",
+    "formatted" : "Rex Arenas",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "louis elago",
+    "formatted" : "Louis Elago",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "alyn elago",
+    "formatted" : "Alyn Elago",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "remedios pamo",
+    "formatted" : "Remedios Pamo",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "ren pamo",
+    "formatted" : "Ren Pamo",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "erlinda caparas",
+    "formatted" : "Erlinda Caparas",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "boy caparas",
+    "formatted" : "Boy Caparas",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "miyuki tsunoda",
+    "formatted" : "Miyuki Tsunoda",
+    "role" : "Family",
+    "description" : "Karen's tomodachi."
+  },
+  {
+    "name" : "miyuki tsunoda",
+    "formatted" : "Miyuki Tsunoda + 1",
+    "role" : "Family",
+    "description" : "Karen's tomodachi. + 1"
+  },
+  {
+    "name" : "agnes nuguid hpe",
+    "formatted" : "Agnes Nuguid",
+    "role" : "HPE",
+    "description" : "Delex in HPE :)"
+  },
+  {
+    "name" : "agnes nuguid hpe neil santos",
+    "formatted" : "Neil Santos",
+    "role" : "HPE",
+    "description" : "Agnes' boyfriend."
+  },
+  {
+    "name" : "ben adrian sarmiento carmudi",
+    "formatted" : "Ben Sarmiento",
+    "role" : "Carmudi",
+    "description" : "Karen's manager at Carmudi. Head of Engineering/IT at Carmudi."
+  },
+  {
+    "name" : "ben adrian sarmiento carmudi",
+    "formatted" : "Ben Sarmiento + 1",
+    "role" : "Carmudi",
+    "description" : "Reserved for Ben's wife or + 1"
+  },
+  {
+    "name" : "eli villanueva eleanor carmudi",
+    "formatted" : "Eli Villanueva",
+    "role" : "Carmudi",
+    "description" : "Karen's project manager at Carmudi."
+  },
+  {
+    "name" : "eli villanueva eleanor carmudi",
+    "formatted" : "Eli Villanueva + 1",
+    "role" : "Carmudi",
+    "description" : "Reserved for Eli's husband or + 1"
+  },
+  {
+    "name" : "jofel bayron carmudi",
+    "formatted" : "Jofel Bayron",
+    "role" : "Carmudi",
+    "description" : "Karen's Backend Lead at the team. <3"
+  },
+  {
+    "name" : "mark vizcarra carmudi",
+    "formatted" : "Mark Vizcarra",
+    "role" : "Carmudi",
+    "description" : "Karen's Frontend Lead at the team. <3"
+  },
+  {
+    "name" : "peachy manasis carmudi",
+    "formatted" : "Peachy Manasis",
+    "role" : "Carmudi",
+    "description" : "Karen's girl bff in Carmudi!!! <3"
+  },
+  {
+    "name" : "vicente garcia",
+    "formatted" : "Vicente Garcia",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "rebecca garcia",
+    "formatted" : "Rebecca Garcia",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "jeff matala",
+    "formatted" : "Jeff Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "vangie matala",
+    "formatted" : "Vangie Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "gabi matala",
+    "formatted" : "Gabi Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "migs matala",
+    "formatted" : "Migs Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "joseph matala",
+    "formatted" : "Joseph Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "joel matala",
+    "formatted" : "Joel Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "maya matala",
+    "formatted" : "Maya Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "waki matala",
+    "formatted" : "Waki Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "mommy saling matala",
+    "formatted" : "Mommy Saling Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "jeng matala",
+    "formatted" : "Jeng Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "baby rose matala",
+    "formatted" : "Baby Rose Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "anthony matala",
+    "formatted" : "Anthony Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "dennis matala",
+    "formatted" : "Dennis Matala",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "joy lacdao",
+    "formatted" : "Joy Lacdao",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "miguel lacdao",
+    "formatted" : "Miguel Lacdao",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "sheena lacdao",
+    "formatted" : "Sheena Lacdao",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "rn lacdao",
+    "formatted" : "Rn Lacdao",
+    "role" : "Family",
+    "description" : ""
+  },
+  {
+    "name" : "jojo sy mapua",
+    "formatted" : "Jojo Sy",
+    "role" : "Mapua",
+    "description" : ""
+  },
+  {
+    "name" : "pau paulo cauntay mapua",
+    "formatted" : "Pau Cauntay",
+    "role" : "Mapua",
+    "description" : ""
+  },
+  {
+    "name" : "kuya roger mapua",
+    "formatted" : "Kuya Roger",
+    "role" : "Mapua",
+    "description" : ""
+  },
+  {
+    "name" : "leonardo nicdao mapua",
+    "formatted" : "Leonardo Nicdao",
+    "role" : "Mapua",
+    "description" : ""
+  },
+  {
+    "name" : "mico cordovez mapua",
+    "formatted" : "Mico Cordovez",
+    "role" : "Mapua",
+    "description" : ""
+  },
+  {
+    "name" : "jose lazaro mapua",
+    "formatted" : "Jose Lazaro",
+    "role" : "Mapua",
+    "description" : ""
+  },
+  {
+    "name" : "dionis padilla pads mapua",
+    "formatted" : "Dionis Padilla",
+    "role" : "Mapua",
+    "description" : ""
+  },
+  {
+    "name" : "lariz perez mapua",
+    "formatted" : "Lariz Perez",
+    "role" : "Mapua",
+    "description" : ""
+  }
 ]

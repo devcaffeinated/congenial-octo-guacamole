@@ -221,7 +221,13 @@
 					<h2><a href="#">Guests</a></h2>
 					<div class="form-group">
 						<label for="name" class="sr-only">Name</label>
-						<input type="name" class="form-control search-name" id="name" placeholder="Name">
+						<input list="keys" class="form-control search-name" id="name" name="keys" placeholder="Name">
+						<datalist id="keys">
+							<option value="entourage">
+							<option value="mapua">
+							<option value="hpe">
+							<option value="carmudi">
+						</datalist>
 						<br>
 						<button class="btn btn-default btn-block search-btn">Search</button>
 						<div class="result-found">
@@ -259,29 +265,26 @@
             $('.result-found').html('');
             var counter = 0;
             var $userSearch = $('.search-name').val().toLowerCase();
-            console.log($userSearch);
 			var resultsInnerHtml = '<hr>';
             $.getJSON( "invitees.json", function(data) {
-				console.log(data);
                 $.each(data, function(i, v) {
                     var replace = "regex";
                     var re = new RegExp($userSearch,"g");
                     if (v.name.search(re) != -1) {
                         counter += 1;
                         resultsInnerHtml +=
-                        	`Name: ` + v.formatted + '<br>' +
-							`Role:` + v.role + '<br>' +
-                        	`Category:` + v.category + '<br>' +
-							`Description:` + v.description + '<br>' +
+                        	`<b>` + v.formatted + '</b><br>' +
+							'<i>' + v.role + '</i><br>' +
+							v.description + '<br>' +
 							`<hr>`;
                         return;
                     }
                 });
 
-                resultsInnerHtml = 'Results : ' + counter + '<hr>' + resultsInnerHtml;
-
-                $('.result-found').html(resultsInnerHtml);
-
+                resultsInnerHtml = '<hr> Results : ' + counter  +
+					resultsInnerHtml +
+                    '<hr>Not found what you\'re looking for? Chat with me via <a href="//m.me/karenirenecano" target="_blank">messenger!</a> :) <hr>';
+                    $('.result-found').html(resultsInnerHtml);
             });
         });
 
