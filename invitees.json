@@ -619,8 +619,14 @@
   },
   {
     "name" : "izza sy",
-    "formatted" : "Izza Sy",
+    "formatted" : " Izza Sy",
     "role" : "",
     "description" : ""
+  },
+  {
+    "name" : "jen vargas hpe",
+    "formatted" : "Jen Vargas",
+    "role" : "HPE",
+    "description" : "Project Manager at HPE"
   }
 ]
