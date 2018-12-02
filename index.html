@@ -262,6 +262,14 @@
 	<script src="./app.js"></script>
 
 	<script>
+
+        $.getJSON( "invitees.json", function(data) {
+            $.each(data, function(i, v) {
+                $('#keys').append('<option value="'+ v.formatted + '">');
+            });
+        });
+
+
         $(".search-btn").click(function(){
             $('.result-found').html('');
             var counter = 0;
