@@ -528,8 +528,8 @@
     "description" : ""
   },
   {
-    "name" : "dennis garcia",
-    "formatted" : "Dennis Garcia",
+    "name" : "dennis matala",
+    "formatted" : "Dennis Matala",
     "role" : "",
     "description" : ""
   },
@@ -640,5 +640,11 @@
     "formatted" : "Jonalyn Asantor + 1",
     "role" : "Carmudi",
     "description" : "Plus 1 of Jonalyn Asantor"
+  },
+  {
+    "name" : "john franco carmudi",
+    "formatted" : "John Franco",
+    "role" : "Carmudi",
+    "description" : "Makulit an QA ng Carmudi"
   }
 ]
