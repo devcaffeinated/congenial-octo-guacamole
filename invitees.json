@@ -645,6 +645,42 @@
     "name" : "john franco carmudi",
     "formatted" : "John Franco",
     "role" : "Carmudi",
-    "description" : "Makulit an QA ng Carmudi"
+    "description" : "Makulit na QA ng Carmudi"
+  },
+  {
+    "name" : "michael matala",
+    "formatted" : "Michael Matala",
+    "role" : "",
+    "description" : ""
+  },
+  {
+    "name" : "matthew matala",
+    "formatted" : "Matthew Matala",
+    "role" : "",
+    "description" : ""
+  },
+  {
+    "name" : "michaela matala",
+    "formatted" : "Michaela Matala",
+    "role" : "",
+    "description" : ""
+  },
+  {
+    "name" : "marien matala",
+    "formatted" : "Marien Matala",
+    "role" : "",
+    "description" : ""
+  },
+  {
+    "name" : "rv matala",
+    "formatted" : "RV Matala",
+    "role" : "",
+    "description" : ""
+  },
+  {
+    "name" : "rj matala",
+    "formatted" : "RJ Matala",
+    "role" : "",
+    "description" : ""
   }
 ]
