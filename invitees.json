@@ -628,5 +628,17 @@
     "formatted" : "Jen Vargas",
     "role" : "HPE",
     "description" : "Project Manager at HPE"
+  },
+  {
+    "name" : "jonalyn asantor jona carmudi",
+    "formatted" : "Jonalyn Asantor",
+    "role" : "Carmudi",
+    "description" : "UI/UX Designer at Carmudi :)"
+  },
+  {
+    "name" : "jonalyn asantor jona carmudi",
+    "formatted" : "Jonalyn Asantor + 1",
+    "role" : "Carmudi",
+    "description" : "Plus 1 of Jonalyn Asantor"
   }
 ]
