@@ -1,2 +1,17 @@
 node_modules
-.idea
+.idea/*
+Backups/
+Cache/
+CachedData/
+CachedExtensions/
+Cookies
+Cookies-journal
+GPUCache/
+Local Storage/
+Preferences
+User/
+languagepacks.json
+logs/
+machineid
+storage.json
+.idea/workspace.xml

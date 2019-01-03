@@ -18,6 +18,12 @@
       "description" : "Principal Sponsor - Ninong - Groom"
   },
   {
+      "name" : "mila patajo entourage ninang",
+      "formatted" : "Mila Patajo",
+      "role" : "Ninang",
+      "description" : "Wife of Ed Patajo - Groom"
+  },
+  {
     "name" : "ramayana diaz entourage ninang",
     "formatted" : "Ramayana Diaz",
     "role" : "Ninang",
@@ -680,6 +686,36 @@
   {
     "name" : "rj matala",
     "formatted" : "RJ Matala",
+    "role" : "",
+    "description" : ""
+  },
+  {
+    "name" : "harvey vargas",
+    "formatted" : "Harvey Vargas",
+    "role" : "",
+    "description" : ""
+  },
+  {
+    "name" : "princess vargas",
+    "formatted" : "Princess Vargas",
+    "role" : "",
+    "description" : ""
+  },
+  {
+    "name" : "hailey vargas",
+    "formatted" : "Hailey Vargas",
+    "role" : "",
+    "description" : ""
+  },
+  {
+    "name" : "robby vargas",
+    "formatted" : "Robby Vargas",
+    "role" : "",
+    "description" : ""
+  },
+  {
+    "name" : "kat reyes",
+    "formatted" : "Kat Reyes",
     "role" : "",
     "description" : ""
   }
