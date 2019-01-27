@@ -1,0 +1,4 @@
+theme: jekyll-theme-tactile
+url: https://tietheknot.tk
+enforce_ssl: tietheknot.tk
+permalink: /:title:output_ext
